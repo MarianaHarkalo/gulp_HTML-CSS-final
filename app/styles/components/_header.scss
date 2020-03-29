@@ -1,0 +1,1477 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-image: url(images/bg.png);
+    height: 755px;
+    background-size: cover;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+  }
+  
+  .head {
+    padding-top: 50px;
+    width: 965px;
+    height: 59px;
+    margin: 0 auto;
+    display: flex;
+  
+  }
+  
+  .pingpuller {
+    display: flex;
+    flex-direction: row;
+    width: 120px;
+    height: 36px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "League Gothic";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 33.72px;
+    text-transform: uppercase;
+    margin-right: 220px;
+  }
+  
+  .pingpuller1 {
+    display: flex;
+    flex-direction: row;
+    width: 120px;
+    height: 36px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "League Gothic";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 33.72px;
+    text-transform: uppercase;
+    margin-right: 220px;
+  }
+  
+  .menu1 {
+    display: flex;
+  
+    justify-content: space-between;
+  
+  }
+  
+  .menu2 {
+    display: flex;
+  
+    justify-content: space-between;
+  }
+  
+  .dws_menu {
+  
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 350px;
+    width: 244px;
+    text-decoration: none;
+    z-index: unset;
+  }
+  
+  .menuDWS {
+    width: 244px;
+    height: 300px;
+    z-index: unset;
+  
+  }
+  
+  .dws_menu:hover {
+    height: 310px;
+    background-color: rgba(51, 27, 51, 0.849);
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: absolute;
+    text-decoration: none;
+  }
+  
+  .dws_menu ul,
+  .dws_menu ol {
+    list-style: none;
+  
+  }
+  
+  .menu1 ol {
+    list-style: none;
+  
+  }
+  
+  .main10 {
+    width: 244px;
+    height: 50px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "League Gothic";
+    font-size: 30px;
+    font-weight: 244;
+    line-height: 50px;
+    text-align: center;
+  }
+  
+  .main10:hover {
+    background-color: rgba(24, 16, 24, 0.356);
+    background-size: contain;
+    width: 244px;
+    height: 50px;
+    border-radius: 10px;
+    border-bottom: 1px solid rgb(230, 139, 202);
+  }
+  
+  .dws_menu {
+    width: 244px;
+    height: 300px;
+  
+  }
+  
+  .dws_menu li ul {
+    position: absolute;
+    max-width: 244px;
+    display: none;
+  }
+  
+  .dws_menu li>ul li {
+    border: 1px solid rgba(44, 23, 44, 0.295);
+  
+  }
+  
+  .dws_menu ul li a {
+    text-decoration: none;
+  
+  }
+  
+  .dws_menu li>ul li a {
+    text-transform: none;
+    text-decoration: none;
+  }
+  
+  .dws_menu li:hover>ul {
+    display: block;
+  }
+  
+  .menuDWS {
+    display: none;
+  }
+  
+  .main {
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    font-family: "League Gothic";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.72px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 30px;
+    text-decoration: none;
+  
+  }
+  
+  .menu1:hover {
+    text-decoration: none;
+    list-style: none;
+  
+  }
+  
+  .menu1 a {
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .main:hover {
+    list-style: none;
+  
+    border-bottom: 5px solid pink;
+  }
+  .menu2{
+    margin-top: 20px;
+  }
+  .main a {
+    text-decoration: none;
+  }
+  
+  menu {
+    text-decoration: none;
+  }
+  
+  .menu2:hover {
+    text-decoration: none;
+    list-style: none;
+  
+  }
+  
+  .menu2 a {
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .main1:hover {
+    list-style: none;
+    border-bottom: 5px solid pink;
+  }
+  
+  .main1 a {
+    text-decoration: none;
+  }
+  
+  .head2 {
+  
+    width: 100%;
+    height: 400px;
+    background-image: url(images/overlay.png);
+    margin-top: 181px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .head1 {
+    width: 965px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .text {
+    width: 502px;
+    height: 231px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 83px;
+    overflow: hidden;
+  }
+  
+  
+  .phone {
+    width: 465px;
+    height: 50px;
+    display: flex;
+    margin-left: 100px;
+  }
+  
+  .P {
+  
+    font-family: "Open Sans - Light";
+    font-weight: 300;
+    line-height: 24px;
+    font-size: 15px;
+    max-width: 502px;
+    height: 120px;
+    color: white;
+    overflow: hidden;
+  }
+  
+  .H2 {
+    color: #edbfff;
+    font-family: "League Gothic";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    font-size: 18px;
+  
+  }
+  
+  .H1 {
+    color: #fefefe;
+    font-family: "League Gothic";
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 70px;
+  
+  }
+  
+  .phone2 {
+  
+    width: 60px;
+    height: 100px;
+    margin-top: -20px;
+  }
+  
+  .phone1 {
+  
+    width: 130px;
+    height: 268px;
+    margin-top: 70px;
+  }
+  
+  .iphone {
+    width: 192px;
+    height: 304px;
+    display: none;
+  }
+  
+  .Play {
+    width: 10px;
+    height: 50px;
+    margin-top: 130px;
+  }
+  
+  .box1 {
+    /* width: 1500px; */
+    /* height: 342px; */
+    background-image: linear-gradient(to top, #322539 0%, #745083 100%);
+    background-size: cover;
+    height: 342px;
+  }
+  
+  .change_ {
+    background-image: url(images/source_of_icons.png);
+    height: 19px;
+    width: 85px;
+  
+    margin-top: 370px;
+    position: absolute;
+    background-position: -55px 0px;
+  }
+  
+  .block {
+    display: flex;
+    flex-wrap: wrap;
+    width: 965px;
+    margin: 0 auto;
+    height: 500px;
+    justify-content: space-between;
+  }
+  
+  .block_main {
+  
+    display: flex;
+    flex-wrap: wrap;
+    width: 965px;
+    margin: 0 auto;
+    height: 500px;
+    justify-content: space-between;
+  }
+  
+  .block1 {
+    padding-top: 50px;
+    display: flex;
+  }
+  
+  .img1 {
+    position: relative;
+    margin-right: 27px;
+  }
+  
+  .TEXT2 {
+  
+    width: 200px;
+    text-shadow: 1px 1px 0 #0f1518;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 300;
+    height: 100px;
+    overflow: hidden;
+  
+    /* line-height: 24px; */
+  
+  }
+  
+  .TEXT1 {
+  
+    text-shadow: 1px 1px 0 #0f1518;
+    color: #ffffff;
+    font-family: "League Gothic";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+  }
+  
+  .TEXT {
+    width: 191px;
+  }
+  
+  .read_more {
+    text-align: end;
+    text-shadow: 1px 1px 0 #0f1518;
+    color: #ffffff;
+    font-family: "League Gothic";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 18px;
+  }
+  
+  .read_more:hover {
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+  }
+  
+  .body {
+    height: 650px;
+    background-color: #f9f9f9;
+  
+  }
+  
+  .block2 {
+    display: FLEX;
+    margin-top: 100px;
+    justify-content: space-between;
+    margin-right: 50px;
+  }
+  
+  .trans {
+    height: 294px;
+    width: 429px;
+    background-image: url(images/Layer_60.png);
+    margin-left: 25px;
+  
+  }
+  
+  .Person {
+    background-image: url(images/source_of_icons.png);
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    margin-top: 10px;
+    position: absolute;
+    background-position: -4px 50px;
+  }
+  
+  .TEXT3 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    padding-left: 40px;
+    text-shadow: 1px 1px 0 #0f1518;
+    color: #ffffff;
+    font-family: "League Gothic";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+  }
+  
+  .TEXT_ {
+    width: 400px;
+  }
+  
+  .TEXT4 {
+    width: 400px;
+    height: 161px;
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #454545;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    overflow-wrap: normal;
+    white-space: normal;
+    padding-left: 40px;
+  
+  }
+  
+  .block3 {
+    margin-top: 100px;
+  
+  }
+  
+  .block4 {
+    padding-top: 25px;
+  
+  }
+  
+  .block5 {
+    display: flex;
+  
+    margin-bottom: 5px;
+  }
+  
+  .icon1 {
+    background-image: url(images/source_of_icons.png);
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    position: absolute;
+    background-position: -216px 233px;
+  }
+  
+  .icon2 {
+    background-image: url(images/source_of_icons.png);
+    height: 50px;
+    width: 100px;
+    border-radius: 25px;
+    position: absolute;
+    background-position: -75px 114px;
+  }
+  
+  .icon3 {
+    background-image: url(images/source_of_icons.png);
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    position: absolute;
+    background-position: -145px 173px;
+  }
+  
+  .TEXT5_1 {
+    margin-left: 70px;
+    color: #454545;
+    font-family: "Open Sans - Bolt";
+    font-size: 16px;
+    font-weight: 300;
+    overflow-wrap: normal;
+    white-space: normal;
+    line-height: 5px;
+    margin-top: 10px;
+  }
+  
+  .TEXT5_2 {
+    margin-left: 70px;
+    color: #454545;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    overflow-wrap: normal;
+    white-space: normal;
+  }
+  
+  .read_more_here {
+    text-align: end;
+    font-family: "League Gothic";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 22px;
+  }
+  
+  .read_more_here:hover {
+    text-shadow: 0.5px 0.5px 0.5px rgb(26, 25, 25);
+  }
+  
+  .change {
+    background-image: url(images/source_of_icons.png);
+    height: 19px;
+    width: 85px;
+    margin-left: 170px;
+    position: absolute;
+    background-position: -55px -20px;
+  }
+  
+  .box2 {
+    max-width: 961px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  
+  }
+  
+  .box10 {
+    /* width: 1500px; */
+    /* height: 342px; */
+    background-color: #ececec;
+    background-size: cover;
+    height: 342px;
+  }
+  
+  .TEXT11 {
+  
+    width: 290px;
+    height: 230px;
+    overflow: hidden;
+  }
+  
+  .TEXT22 {
+    margin-top: 20px;
+    width: 201px;
+    height: 15px;
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #c5c5c5;
+    font-family: "Georgia";
+    font-size: 16px;
+    font-style: italic;
+    line-height: 24px;
+  }
+  
+  .TEXT23 {
+    margin-top: 15px;
+    width: 277px;
+    height: 113px;
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #787878;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+  
+  }
+  
+  .TEXT24 {
+    font-family: "League Gothic";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #454545;
+  }
+  
+  footer {
+    background-image: url(images/bg_copy.png);
+    /* width: 1500px; */
+    height: 130px;
+    background-size: cover;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    line-height: 130px;
+  
+  }
+  
+  .block_2 {
+    display: flex;
+    width: 965px;
+    margin: 0 auto;
+    height: 340px;
+    justify-content: space-between;
+  }
+  
+  .main1 {
+    /* text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4); */
+    color: #ffffff;
+    font-family: "League Gothic";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    /* line-height: 130px; */
+    padding-top: 50px;
+  
+  }
+  
+  .footer {
+    width: 965px;
+    height: 50px;
+    display: flex;
+    line-height: 130px;
+    margin: 0 auto;
+  }
+  
+  .text_end {
+    margin-left: 38%;
+    float: left;
+    line-height: 130px;
+  }
+  
+  .text_end1 {
+    font-family: "Open Sans - Light";
+    font-weight: 300;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 300;
+    float: left;
+  }
+  
+  .text_end2 {
+    float: left;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 300;
+    font-family: "Open Sans - Extrabold";
+    font-weight: 400;
+  }
+  
+  .imge1 {
+    background-image: url(images/logos.png);
+    width: 120px;
+    height: 65px;
+    position: absolute;
+    background-position: 0 0;
+  }
+  
+  .sprite {
+    width: 120px;
+    height: 65px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+  }
+  
+  .img2 {
+  
+    background-image: url(images/logos.png);
+    width: 100px;
+    height: 65px;
+    position: absolute;
+    background-position: -130px 0;
+  }
+  
+  .img3 {
+  
+    background-image: url(images/logos.png);
+    width: 100px;
+    height: 65px;
+    position: absolute;
+    background-position: -260px 0;
+  }
+  
+  .img4 {
+  
+    background-image: url(images/logos.png);
+    width: 100px;
+    height: 65px;
+    position: absolute;
+    background-position: -390px 0;
+  }
+  
+  .img5 {
+    background-image: url(images/logos.png);
+    width: 110px;
+    height: 65px;
+    position: absolute;
+    background-position: -520px 0;
+  }
+  
+  .img6 {
+    background-image: url(images/logos.png);
+    width: 80px;
+    height: 65px;
+    position: absolute;
+    background-position: -695px 0;
+  }
+  
+  .wrap {
+    width: 775px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  @media (min-width: 768px) and (max-width: 1025px) {
+    .menuDWS {
+      display: none;
+    }
+  
+    .block_main {
+      width: 750px;
+    }
+  
+    .head {
+      width: 750px;
+      display: block;
+  
+    }
+  
+    .main {
+  
+      margin-left: 0;
+    }
+  
+    .head1 {
+      width: 750px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .text {
+      width: 350px;
+      height: 205px;
+  
+    }
+  
+    .P {
+  
+      width: 300px;
+      height: 130px;
+      font-size: 16px;
+      overflow: hidden;
+  
+    }
+  
+    .H2 {
+  
+      width: 300px;
+      height: 40px;
+      font-size: 25px;
+      overflow: hidden;
+    }
+  
+    .H1 {
+      width: 310px;
+      font-size: 48px;
+    }
+  
+    .phone {
+      margin-top: -40px;
+    }
+  
+    .TEXT1 {
+      width: 150px;
+      font-size: 24px;
+    }
+  
+    .TEXT2 {
+      width: 155px;
+      height: 140px;
+      font-size: 16px;
+      overflow: hidden;
+    }
+  
+    .read_more {
+      font-size: 18px;
+    }
+  
+    .block {
+      width: 750px;
+    }
+  
+    .Person {
+      width: 49px;
+      height: 49px;
+    }
+  
+    .trans {
+      background-image: none;
+      width: 313px;
+      height: 272px;
+      background-color: white;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    }
+  
+    .TEXT3 {
+      line-height: 5px;
+      display: block;
+      font-size: 24px;
+    }
+  
+    .TEXT4 {
+      width: 275px;
+      height: 145px;
+      overflow: hidden;
+    }
+  
+    .change {
+      margin-left: 150px;
+      margin-top: 20px;
+    }
+  
+    .TEXT5_2 {
+      width: 269px;
+      height: 20px;
+      overflow: hidden;
+    }
+  
+    .block_2 {
+      width: 750px;
+    }
+  
+    .TEXT23 {
+      width: 205px;
+      height: 162px;
+      overflow: hidden;
+    }
+  
+    .pingpuller1 {
+      font-size: 26px;
+      height: 30px;
+      overflow: hidden;
+  
+    }
+  
+    .TEXT22 {
+      display: none;
+    }
+  
+    .footer {
+      width: 750px;
+    }
+  
+    .text_end {
+      margin-left: 100px;
+      margin-top: 20px;
+    }
+  
+    .TEXT11 {
+      width: 235px;
+      margin-left: 10px;
+    }
+  
+  }
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .realmenu {
+      display: none;
+    }
+  
+    .menuDWS {
+      margin: 0 auto;
+      display: block;
+    /* padding-left: 20px; */
+    }
+  
+    .head {
+      width: 400px;
+      display: block;
+    }
+  
+    .pingpuller {
+      /* margin-left: 100px; */
+      /* margin: 0 auto; */
+      margin-left: 120px;
+    }
+  
+    .text {
+      min-width: 200px;
+    }
+  
+    .P {
+      display: none;
+    }
+  
+    .H1 {
+      width: 200px;
+  
+      line-height: 36px;
+      font-size: 36px;
+    }
+  
+    .H2 {
+      width: 200px;
+  
+      font-size: 16px;
+      height: 40px;
+      overflow: hidden;
+  
+    }
+  
+    .head1 {
+      width: 400px;
+    }
+  
+    .phone {
+      margin-left: -100px;
+    }
+  
+    .TEXT {
+      width: 400px;
+  
+    }
+  
+    .block1 {
+      width: 400px;
+    }
+  
+    .TEXT2 {
+      width: 400px;
+  
+    }
+  
+    .block {
+      width: 400px;
+  
+      /* padding-top: 80px; */
+    }
+  
+    .box1 {
+      height: 580px;
+    }
+  
+    .body {
+      height: 1000px;
+    }
+  
+    .block_main {
+      height: 850px;
+      width: 400px;
+    }
+  
+    .block1 {
+      height: 100px;
+  
+    }
+  
+    .block3 {
+      margin-top: 0;
+      padding-top: 0;
+    }
+  
+    .block_2 {
+      width: 400px;
+      height: 500px;
+      flex-wrap: wrap;
+      padding-top: 0;
+    }
+  
+    .box10 {
+      height: 550px;
+      margin-top: 0;
+      padding-top: 0;
+    }
+  
+    .TEXT23 {
+      width: 400px;
+      height: 20px;
+      padding-top: 0;
+  
+    }
+  
+    .TEXT11 {
+      width: 400px;
+      height: 117px;
+      padding-top: 0;
+      margin-top: 0;
+    }
+  
+    .TEXT22 {
+      display: none;
+  
+    }
+  
+    .TEXT24 {
+      padding-top: 0;
+      margin-top: 0;
+    }
+  
+    .footer {
+      width: 400px;
+      flex-direction: column;
+      line-height: 5px;
+    }
+  
+    .text_end {
+      line-height: 30px;
+    }
+  
+    .main1 {
+      line-height: 80px;
+    }
+  
+    .TEXT2 {
+      height: 60px;
+    }
+  
+    .menu1 {
+      display: block;
+    }
+  
+    .wrap {
+      width: 400px;
+    }
+  
+    .iphone {
+      display: block;
+      margin-right: 0;
+    }
+  
+    .phone1 {
+      display: none;
+    }
+  
+    .phone2 {
+      display: none;
+    }
+  
+    .Play {
+      display: none;
+    }
+  
+    .change_ {
+      margin-left: 100px;
+    }
+  
+    .phone1 {
+  
+      width: 100px;
+      height: 100px;
+      margin-top: 70px;
+    }
+  
+    .Play {
+      width: 0px;
+      height: 50px;
+      margin-top: 130px;
+    }
+  
+    .trans {
+      background-image: none;
+      width: 400px;
+      height: 272px;
+      background-color: white;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    }
+  
+    .TEXT2 {
+      width: 350px;
+    }
+  
+    .Block {
+      width: 400px;
+    }
+  
+    .main1 {
+      width: 50px;
+    }
+  
+    .head2 {
+      height: 246px;
+      background-image: url(images/overlay.png);
+    }
+  
+    .body {
+      height: 1050px;
+    }
+  
+    .main1 {
+      padding-top: 0;
+      line-height: 30px;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .realmenu {
+      display: none;
+    }
+  
+    .header {
+      width: 200px;
+      margin: 0 auto;
+    }
+  
+    .menuDWS {
+      width: 200px;
+      display: block;
+      position: absolute;
+    margin-left: 10px;
+  
+    }
+  .pingpuller{
+    margin-left: 10px;
+  }
+    .head {
+      width: 200px;
+      display: block;
+    }
+  
+    .head1 {
+      width: 200px;
+    }
+  
+    .text {
+      min-width: 200px;
+    }
+  
+    .P {
+      display: none;
+    }
+  
+    .H1 {
+      margin: 0 auto;
+      width: 200px;
+      line-height: 36px;
+      font-size: 36px;
+    }
+  
+    .H2 {
+      width: 200px;
+      margin: 0 auto;
+      font-size: 16px;
+      height: 40px;
+      overflow: hidden;
+    }
+  
+    .head1 {
+      width: 200px;
+    }
+  
+    .phone {
+      margin-left: -100px;
+    }
+  
+    .TEXT {
+      width: 256px;
+    }
+  
+    .block1 {
+      width: 256px;
+    }
+  
+    .TEXT2 {
+      width: 256px;
+    }
+  
+    .TEXT3 {
+      display: block;
+      line-height: 23px;
+    }
+  
+    .block {
+      width: 300px;
+    }
+  
+    .box1 {
+      height: 580px;
+    }
+  
+    .body {
+      height: 1000px;
+    }
+  
+    .block_main {
+      height: 850px;
+      width: 300px;
+    }
+  
+    .change {
+      margin-left: 120px;
+    }
+  
+    .block1 {
+      height: 100px;
+  
+    }
+  
+    .imge1 {
+      margin-left: 5px;
+    }
+  
+    .block3 {
+      margin-top: 0;
+      padding-top: 0;
+    }
+  
+    .block_2 {
+      display: none;
+    }
+  
+    .box10 {
+      display: none;
+    }
+  
+    .TEXT23 {
+      width: 400px;
+      height: 20px;
+      padding-top: 0;
+  
+    }
+  
+    .TEXT11 {
+      width: 400px;
+      height: 118px;
+      padding-top: 0;
+      margin-top: 0;
+    }
+  
+    .TEXT22 {
+      display: none;
+  
+    }
+  
+    .TEXT24 {
+      padding-top: 0;
+      margin-top: 0;
+    }
+  
+    .footer {
+      width: 400px;
+      flex-direction: column;
+      line-height: 5px;
+    }
+  
+    .text_end {
+      line-height: 0px;
+    }
+  
+    .main1 {
+      line-height: 80px;
+    }
+  
+    .main10 {
+      width: 156px;
+    }
+  
+    .main10:hover {
+  
+      width: 156px;
+    }
+  
+    .dws_menu {
+      width: 216px;
+  
+    }
+  
+  
+    .dws_menu li ul {
+      position: absolute;
+      max-width: 156px;
+      display: none;
+    }
+  
+    .dws_menu {
+      width: 156px;
+  
+    }
+  
+    .menuDWS {
+      width: 156px;
+  
+  
+    }
+  
+    .TEXT2 {
+      height: 55px;
+    }
+  
+    .TEXT4 {
+      width: 230px;
+      height: 167px;
+      font-size: 16px;
+      overflow: hidden;
+    }
+  
+    .menu1 {
+      display: block;
+    }
+  
+    .wrap {
+      width: 400px;
+    }
+  
+    .iphone {
+      display: none;
+  
+    }
+  
+    .phone1 {
+      display: none;
+    }
+  
+    .phone2 {
+      display: none;
+    }
+  
+    .Play {
+      display: none;
+    }
+  
+    .change_ {
+      margin-left: -50px;
+    }
+  
+    .phone1 {
+  
+      width: 100px;
+      height: 100px;
+      margin-top: 70px;
+    }
+  
+    .Play {
+      width: 0px;
+      height: 50px;
+      margin-top: 130px;
+    }
+  
+    .trans {
+      background-image: none;
+      width: 256px;
+      height: 272px;
+      background-color: white;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    }
+  
+    .TEXT2 {
+      width: 185px;
+    }
+  
+    .block2 {
+      margin-right: 0;
+      margin-left: 0;
+    }
+  
+    .Block {
+      width: 300px;
+  
+    }
+  
+    .main1 {
+      width: 50px;
+    }
+  
+    .head2 {
+      height: 246px;
+      background-image: none;
+    }
+  
+    .body {
+      height: 1200px;
+    }
+  
+    .TEXT1 {
+      font-size: 30px;
+  
+    }
+  
+    .TEXT_ {
+      width: 256px;
+    }
+  
+    .TEXT5_1 {
+      width: 200px;
+      height: 23px;
+      font-size: 16PX;
+      line-height: 20px;
+      overflow: hidden;
+    }
+  
+    .TEXT5_2 {
+      height: 23px;
+      overflow: hidden;
+    }
+  
+    .sprite {
+      margin-bottom: 40px;
+    }
+  
+    .menu2 {
+      display: none;
+    }
+  
+    .text_end {
+      width: 200px;
+      height: 50px;
+  
+      margin: 0 auto;
+    }
+  
+    .text_end1 {
+      /* width: 100px; */
+      line-height: 10px;
+    }
+  
+    .text_end2 {
+      line-height: 10px;
+  
+    }
+  
+    .footer {
+      padding-top: 50px;
+      width: 300px;
+    }
+  
+    header {
+      height: 800px;
+    }
+  
+  }
